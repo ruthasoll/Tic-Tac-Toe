@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+  }
+  
+ .game-container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 600px;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
